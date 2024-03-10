@@ -1,0 +1,32 @@
+name: datascience_env
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - python
+  - matplotlib
+  - nose
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - python-dateutil
+  - pip
+  - Py4J
+  - pyarrow
+  - pyspark
+  - tensorflow
+  - keras
+  - pytorch
+  - torchvision
+  - jupyter
+  - jupyterlab
+  - ipython
+  - ipywidgets
+  - google-cloud-bigquery
+  - pip:
+    - datetime
+
+
+
